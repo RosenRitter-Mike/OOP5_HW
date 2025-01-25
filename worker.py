@@ -2,8 +2,8 @@ from employee import Employee
 
 
 class Worker(Employee):
-    def __init__(self, id, name, address, age, hours_per_day, hour_rate):
-        super().__init__(id, name, address, age)
+    def __init__(self, id, name, address, age, year_of_birth, hours_per_day, hour_rate):
+        super().__init__(id, name, address, age, year_of_birth)
         self.__hours_per_day = hours_per_day
         self.__hour_rate = hour_rate
 
